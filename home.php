@@ -261,30 +261,53 @@ if($usermail == true){
 
   <section id="thirdsection">
     <h1 class="head">≼ Facilities ≽</h1>
-    <div class="facility">
-      <div class="box">
-        <h2>Swiming pool</h2>
-      </div>
-      <div class="box">
-        <h2>Spa</h2>
-      </div>
-      <div class="box">
-        <h2>24*7 Restaurants</h2>
-      </div>
-      <div class="box">
-        <h2>24*7 Gym</h2>
-      </div>
-      <div class="box">
-        <h2>Heli service</h2>
-      </div>
+    <div class="carousel-container" style="max-width: 800px; margin: 0 auto;">
+    <div id="facilityCarousel" class="facillity" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="box">
+                    <h2>Swimming pool</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="box">
+                    <h2>Spa</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="box">
+                    <h2>24*7 Restaurants</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="box">
+                    <h2>24*7 Gym</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="box">
+                    <h2>Heli service</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#facilityCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#facilityCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  </section>
+    </div>
+</section>
 
   <section id="contactus">
     <div class="social">
-      <i class="fa-brands fa-instagram"></i>
+      <!-- <i class="fa-brands fa-instagram"></i>
       <i class="fa-brands fa-facebook"></i>
-      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-solid fa-envelope"></i> -->
     </div>
     <div class="createdby">
       <h5>Created by <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/nidhi-rawat-333721260/">Nidhi</a>, <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/keshav-gupta-bb5495252/">Keshav</a>, <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/s-m33r">Sameer</a></h5>
