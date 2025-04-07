@@ -287,7 +287,7 @@ if($usermail == true){
       <i class="fa-solid fa-envelope"></i>
     </div>
     <div class="createdby">
-      <h5>Created by @tushar</h5>
+      <h5>Created by <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/nidhi-rawat-333721260/">Nidhi</a>, <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/keshav-gupta-bb5495252/">Keshav</a>, <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/s-m33r">Sameer</a></h5>
     </div>
   </section>
 </body>
